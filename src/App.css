@@ -1,3 +1,53 @@
+* {
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 70px;
+  height: 450px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  gap: 15px;
+}
+
+.bottom {
+  border: 1px solid black;
+  height: 70px;
+}
+
+.card h3 {
+  font-size: 14px;
+  height: 33px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card img {
+  width: 150px;
+}
+
+.cart-button {
+  position: relative;
+  top: 15px;
+  left: 140px;
+  width: 15px;
+  cursor: pointer;
+  background-color: rgb(84, 46, 179);
+  color: white;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+.cart {
+  overflow-y: scroll;
 }
