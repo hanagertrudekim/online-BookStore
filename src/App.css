@@ -48,6 +48,19 @@
   padding: 0 3px;
 }
 
-.cart {
+.wish_list {
   overflow-y: scroll;
+}
+
+.wish-button {
+  position: relative;
+  top: 15px;
+  left: 35px;
+  width: 15px;
+  cursor: pointer;
+  background-color: rgb(84, 46, 179);
+  color: white;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
 }
